@@ -5,8 +5,7 @@
 - [x] Update `src/routes/index.tsx` to use the new Header and Footer components
 - [x] Add the Privacy Policy route component (`src/routes/privacy-policy.tsx`)
 - [x] Add the Terms & Conditions route component (`src/routes/terms-and-conditions.tsx`)
-- [x] Create `vercel.json` in project root
-- [x] Create `vercel.json` in `public/` directory to auto-bundle it in the build output
-- [x] Configure builder public output directory to `dist/` in `vite.config.ts`
-- [x] Run build command to confirm successful creation of the `dist/` output and `dist/vercel.json`
+- [x] Revert custom `nitro` build directory configuration to restore default Vercel compatibility
+- [x] Remove `vercel.json` files to resolve CSS asset and routing conflicts
+- [x] Push configuration fixes to GitHub to trigger a clean Vercel SSR deployment
 - [x] Verify implementation, check route tree regeneration, and test navigation
